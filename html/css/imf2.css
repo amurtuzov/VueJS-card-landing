@@ -1,0 +1,95 @@
+.bxs, .bxs * { 
+	box-sizing: border-box;
+	outline: none;
+}
+
+.form-box input, .form-box textarea {
+	width: 100%;
+}
+
+.form-box {
+	margin-left: -10px;
+	margin-right: -10px;
+	display: block;
+}
+
+.form-box .form-item {
+	margin: 10px !important;
+	width: calc(50% - 20px);
+	position: relative;
+	display: block;
+}
+
+
+.row > * {
+	float: left
+}
+
+.row:after {
+	content: "";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
+
+.wdt100 {
+	width: 100% !important;
+}
+
+.fs18 {
+	font-size: 18px;
+}
+
+.blue {
+	color: #005499;
+}
+
+.fw600{
+	font-weight: 600;
+}
+
+.form-box textarea {
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 16px 20px;
+	border-radius: 8px;
+	background: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	box-shadow: none;
+	resize: none;
+}
+
+
+
+.jq-selectbox li {
+	display: block;
+	margin: 0 !important;
+}
+
+.form-box .form-item.empty {
+	height: 60px;
+} 
+
+.form-box .wdt100 {
+	width: calc(100% - 20px) !important;
+}
+
+.form-box input[type=text], .form-box .jq-selectbox__select {
+	height: 58px;
+}
+
+.form-box .jq-selectbox__select-text {
+	line-height: 56px;
+}
+
+.item-chk input {
+	left: -9999px;
+	width: 0;
+}
+
+.form-box .item-chk label {
+	margin-left: 0;
+}
